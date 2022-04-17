@@ -13,13 +13,16 @@ In this project, I looked at the reviews for Music products and used PySpark to 
 ### How many Vine reviews and non-Vine reviews were there?
 There were far more non_Vine reviews than Vine reviews. Specifically, there were only 7 Vine reviews that met our requirements of having over 20 total reviews, and having at least half of those total reviews be listed as helpful reviews. This is compared to the 105,979 non-Vine reviews that met this requirement. 
 
-[]
+<img width="1367" alt="Vine_Reviews_Results" src="https://user-images.githubusercontent.com/96350388/163735057-ed196108-b588-4e5d-bd80-873178c5f442.png">
+Image 1: Shows the code and results of how many total reviews, 5-star reviews, and the ratio of them for Vine and non-Vine reviews.
 
 ### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 - Of the 7 Vine reviews we had, none of them were 5 stars. 
 - Of the 105,979 non-Vine reviews, 67,580 of them were 5 star reviews. 
 
-[]
+<img width="1245" alt="Vine_Reviews_DataFrame" src="https://user-images.githubusercontent.com/96350388/163735061-901bb68a-b544-4091-8fea-686dbf91a3d1.png">
+Image 2: Shows entire Vine Reviews dataframe, with only 7 total entries
+
 ### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 - Zero out of the seven Vine reviews had 5 stars, which is a whopping 0.0%.
 - 67,580 out of the 105,979 non-Vine reviews had 5 stars, which is about 63.8%
